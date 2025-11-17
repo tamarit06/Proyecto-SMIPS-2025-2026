@@ -101,4 +101,4 @@ La eficiencia será medida en base a la cantidad de ciclos del reloj que toma co
 
 ### Precisiones Adicionales
 
-Para el correcto funcionamiento de los tests automáticos las componentes `RAM` de `logisim` (no la `RAM` implementada en la plantilla) utilizadas en el `s-mips.circ` deben cumplir ciertas condiciones. Para evitar conflictos, y puesto que tampoco es necesario, queda prohibido utilizar dichas componentes como partes de alguna de las componentes a implementar.
+Para el correcto funcionamiento de los tests automáticos las componentes `RAM` de `logisim` (no la `RAM` implementada en la plantilla) utilizadas en el `s-mips.circ` deben cumplir ciertas condiciones. Para evitar conflictos, y puesto que tampoco es necesario, queda prohibido utilizar dichas componentes como partes de alguna de las componentes a implementar
