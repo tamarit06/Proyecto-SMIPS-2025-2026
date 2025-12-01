@@ -165,7 +165,7 @@ class TestSuite:
         except FileExistsError as e:
             print_verbose(verbose_level_all, "Directorio existente: ", base_dir)
         print_verbose(verbose_level_all, "Compilando: ", path)
-        status = os.system(f"python3 assembler.py {path} -o {base_dir}")
+        status = os.system(f"python assembler.py {path} -o {base_dir}")
         if status != 0:
             print("Error al compilar: ", path)
 
